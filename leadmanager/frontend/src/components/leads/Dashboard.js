@@ -6,18 +6,10 @@ import Leads from './Leads';
 
 
 export default function Dashboard() {
-    return ( <
-        div >
-        <
-        Fragment >
-        <
-        Leads >
-
-        <
-        /Leads> <
-        /Fragment> <
-        /div>
-    )
+    return (
+      <Fragment>
+          <Form />
+          <Leads />
+      </Fragment>
+    );
 }
-
-export default Dashboard;
